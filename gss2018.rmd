@@ -28,7 +28,7 @@ First question - Is opinion on the death penalty (CAPPUN) independent of gun own
 
 $H_0$: CAPPUN is independent of OWNGUN 
 
-$H_A$: CAPPUN is not dependent of OWNGUN
+$H_A$: CAPPUN is not independent of OWNGUN
 
 ## Methods
 
@@ -53,7 +53,7 @@ barchartGC(~CAPPUN + OWNGUN,data=GSSdata, type="percent")
 
 ```
 
-This graph shows that the half of the people who own guns are in favor of them, while the more than half of the people who do not own guns are not in favor of them
+This graph shows that half of the people who own guns are in favor of them, while more than half of the people who do not own guns are not in favor of them.
 
 #### Numerical Descriptive Results
 
@@ -63,7 +63,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-This table shows that.....
+This table shows that the relationship between gun ownership(OWNGUN) and opinions on capital punishment(CAPPUN), indicate that a higher percentage of gun owners favor capital punishment compared to non-gun owners.
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
@@ -77,7 +77,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The p-value for the Chi-squared test was p=5.3932, this means we reject/ fail to reject the null hypothesis, and conclude that the opinion on capital punishment(CAPPUN) is/ is not independent of gun ownership(OWNGUN)
+The p-value for the Chi-squared test was p=0.0202, this means we reject the null hypothesis, and conclude that the opinion on capital punishment(CAPPUN) is not independent of gun ownership(OWNGUN)
 
 The p-value for the fisher exact test was p=0.01651, and the odds ration was 2.271:1
 the odds ratio, 2.271:1 means that people do no own a gun are 2.271 times more likely to oppose capital punishment(CAPPUN) 
