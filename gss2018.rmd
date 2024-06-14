@@ -34,8 +34,8 @@ $H_A$: CAPPUN is not dependent of OWNGUN
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-CAPPUN is a cat variable
-OWNGUN is a cat variable, so I use the cat~cat helper file
+CAPPUN is a categorical variable
+OWNGUN is a categorical variable, so I use the cat~cat helper file
 
 ## Results
 
