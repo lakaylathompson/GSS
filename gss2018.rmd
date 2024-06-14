@@ -56,6 +56,14 @@ This graph shows that the people in favor of guns are half and half, while the o
 
 #### Numerical Descriptive Results
 
+```{r}
+table1 <- xtabs(~CAPPUN + OWNGUN,data=GSSdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+This table shows that.....
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ### Inferential Results
