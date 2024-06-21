@@ -147,9 +147,18 @@ This t-test shows that those who voted in 2012 have higher education because the
 
 Determine if a persons performance on the wordsum test (WORDSUM) is independent of their level of schooling (DEGREE).
 
+### Introduction 
+$H_0$: The score of a persons wordsum test is independent of their schooling
+
+$H_A$: The score of a persons wordsum test is not independent of their schooling
+
 ## Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+WORDSUM is numerical
+
+DEGREE is categorical, so I use the helper file Num~Cat
 
 ## Results
 
