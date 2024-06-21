@@ -148,4 +148,6 @@ Determine if a persons performance on the wordsum test (WORDSUM) is independent 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-#### Question 1: Is gun ownership independant of opinion on captal punishment. The summary results and the inferential results show that they are not independant.
+#### Question 1: Is gun ownership independant of opinion on captal punishment. 
+
+The summary results and the inferential results show that they are not independant.
