@@ -35,6 +35,7 @@ $H_A$: Opinion on CAPPUN is not independent of OWNGUN
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 CAPPUN is a categorical variable
+
 OWNGUN is also a categorical variable, so I use the cat~cat helper file
 
 ## Results
@@ -147,3 +148,4 @@ Determine if a persons performance on the wordsum test (WORDSUM) is independent 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+#### Question 1: Is gun ownership independant of opinion on captal punishment. The summary results and the inferential results show that they are not independant.
