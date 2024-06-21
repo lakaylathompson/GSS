@@ -91,9 +91,11 @@ the odds ratio, 2.271:1 means that people do no own a gun are 2.271 times more l
 
 Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
 
-$H_0$: 
 
-$H_A$: 
+### Introduction 
+$H_0$: There is a difference of years EDUC who did VOTE12
+
+$H_A$: There is no difference of years EDUC who did not VOTE12
 
 ## Methods
 
