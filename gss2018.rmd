@@ -115,10 +115,19 @@ VOTE12 is a factor, so I use the helper file Num~Cat
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+plot(EDUC~VOTE12,data=GSSdata)
+```
+
+This boxplot shows that the people who voted in 2012 tend to have a  higher EDUC than those who did not VOTE12
+
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats{EDUC~VOTE12,data=GSSdata}
+```
 
 
 ### Inferential Results
