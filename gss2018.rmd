@@ -181,3 +181,7 @@ The summary results and the inferential results show that they are not independe
 #### Question 2: Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
 
 The summary results and the inferential results show that there is a difference of years in people who voted in 2012. 
+
+#### Question 3: Is a persons performance on the wordsum test (WORDSUM) independent of their level of schooling (DEGREE)?
+
+
