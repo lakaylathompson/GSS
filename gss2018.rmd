@@ -35,7 +35,7 @@ $H_A$: Opinion on CAPPUN is not independent of OWNGUN
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 CAPPUN is a categorical variable
-OWNGUN is a categorical variable, so I use the cat~cat helper file
+OWNGUN is also a categorical variable, so I use the cat~cat helper file
 
 ## Results
 
