@@ -139,7 +139,7 @@ The numerical results show that in 2012 those who did vote have almost 16 years 
 t.test(EDUC~VOTE12,data=GSSdata)
 ```
 
-This t-test shows that those who voted in 2012 have higher education because the p-value=1.248e-07, so we reject the null hypothesis because the p-value is smaller than 0.05 this means that more people who voted in 2012 have higher education 
+This t-test shows that those who voted in 2012 have higher education because the p-value=1.248e-07, so we reject the null hypothesis because the p-value is smaller than 0.05 this means that there is a difference of years in people who voted in 2012. 
 
 #  Question 3
 
@@ -151,7 +151,7 @@ Determine if a persons performance on the wordsum test (WORDSUM) is independent 
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-##Results
+## Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
@@ -176,4 +176,8 @@ Determine if a persons performance on the wordsum test (WORDSUM) is independent 
 
 #### Question 1: Is gun ownership independant of opinion on captal punishment. 
 
-The summary results and the inferential results show that they are not independant.
+The summary results and the inferential results show that they are not independent.
+
+#### Question 2: Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
+
+The summary results and the inferential results show that there is a difference of years in people who voted in 2012. 
