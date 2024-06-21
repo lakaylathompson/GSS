@@ -93,9 +93,9 @@ Is there a difference in years of education (EDUC) between the those who did or 
 
 
 ### Introduction 
-$H_0$: There is a difference of years EDUC who did VOTE12
+$H_0$: There is no difference of years EDUC who did not VOTE12
 
-$H_A$: There is no difference of years EDUC who did not VOTE12
+$H_A$: There is a difference of years EDUC who did VOTE12
 
 ## Methods
 
