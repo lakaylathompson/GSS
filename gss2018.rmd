@@ -101,6 +101,10 @@ $H_A$: There is no difference of years EDUC who did not VOTE12
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+EDUC is numerical 
+
+VOTE12 is a factor, so I use the helper file Num~Cat 
+
 ## Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
