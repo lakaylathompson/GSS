@@ -126,9 +126,10 @@ This boxplot shows that the people who voted in 2012 tend to have a  higher EDUC
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ```{r}
-favstats{EDUC~VOTE12,data=GSSdata}
+favstats(EDUC~VOTE12,data=GSSdata)
 ```
 
+The numerical results show that in 2012 those who did vote have almost 16 years of education. Those who did not vote in 2012 have a little over 13 years of education.
 
 ### Inferential Results
 
