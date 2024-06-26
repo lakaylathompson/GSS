@@ -174,7 +174,7 @@ DEGREE is categorical, so I use the helper file Num~Cat
 boxplot(WORDSUM~DEGREE,data=GSSdata)
 ```
 
-
+The boxplot shows that as the degree level increases from LT High School to Graduate, the median WORDSUM scores also increase. Graduates tend to have higher WORDSUM scores compared to those with lower degrees.
 
 #### Numerical Descriptive Results
 
@@ -184,7 +184,7 @@ boxplot(WORDSUM~DEGREE,data=GSSdata)
 favstats(WORDSUM~DEGREE,data=GSSdata)
 ```
 
-
+The numerical result shows that as the level of education increases, the WORDSUM scores tend to increase. Graduates have the highest median and mean WORDSUM scores, followed by those with Bachelor degrees, Junior College degrees, High School degrees, and finally those with less than High School education.
 
 ### Inferential Results
 
@@ -204,13 +204,13 @@ par(mar = c(7, 8.7, 2, 2))
 plot(TukeyHSD(anova),las=2)
 ```
 
-There is no difference between high school and less than high school.
-There is a difference between junior college and high school. 
-There is a difference between bachelor college and high school.
-There is a difference between graduate and high school.
-There is no difference between highschool and graduate.
-There is no difference between junior college and graduate.
-There is no difference between bachelor and graduate.
+There is no difference between high school and less than high school.  
+There is a difference between junior college and high school.   
+There is a difference between bachelor college and high school.  
+There is a difference between graduate and high school.  
+There is no difference between highschool and graduate.  
+There is no difference between junior college and graduate.  
+There is no difference between bachelor and graduate.  
 
 # Discussion and Conclusion
 
