@@ -170,16 +170,47 @@ DEGREE is categorical, so I use the helper file Num~Cat
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(WORDSUM~DEGREE,data=GSSdata)
+```
+
 
 
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(WORDSUM~DEGREE,data=GSSdata)
+```
+
+
+
 ### Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+anova=aov(WORDSUM~DEGREE,data=GSSdata)
+summary(anova)
+```
+
+This shows that we reject the null hypothesis because the p-value is 0.00000025 which is smaller than 0.05.
+
+```{r}
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
+
+par(mar = c(7, 8.7, 2, 2))
+plot(TukeyHSD(anova),las=2)
+```
+
+There is no difference between high school and less than high school.
+There is a difference between junior college and high school. 
+There is a difference between bachelor college and high school.
+There is a difference between graduate and high school.
+There is no difference between highschool and graduate.
+There is no difference between junior college and graduate.
+There is no difference between bachelor and graduate.
 
 # Discussion and Conclusion
 
