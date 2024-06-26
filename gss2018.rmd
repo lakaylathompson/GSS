@@ -226,4 +226,6 @@ The summary results and the inferential results show that there is a difference 
 
 #### Question 3: Is a persons performance on the wordsum test (WORDSUM) independent of their level of schooling (DEGREE)?
 
+The summary results and the inferential results show that a person's performance on the WORDSUM test (WORDSUM) is not independent of their level of schooling (DEGREE).
+
 
